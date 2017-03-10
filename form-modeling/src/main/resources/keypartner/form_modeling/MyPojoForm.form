@@ -3,4 +3,5 @@
 <property name="name" value="MyPojoForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder supportedType="className" inputId="" name="#FF54A7" type="dataModelerEntry" outId="complexInput1" value="keypartner.form_modeling.MyPojo" id="mypojo1"/>
 </form>
