@@ -9,10 +9,13 @@ public class MyModel implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "model field1")
+   @org.kie.api.definition.type.Label("model field1")
    private java.lang.String field1;
-   @org.kie.api.definition.type.Label(value = "model field2")
+   @org.kie.api.definition.type.Label("model field2")
    private java.lang.String field2;
+
+   @org.kie.api.definition.type.Label(value = "header field")
+   private keypartner.form_modeling.Header header;
 
    public MyModel()
    {
@@ -38,10 +41,22 @@ public class MyModel implements java.io.Serializable
       this.field2 = field2;
    }
 
-   public MyModel(java.lang.String field1, java.lang.String field2)
+   public keypartner.form_modeling.Header getHeader()
+   {
+      return this.header;
+   }
+
+   public void setHeader(keypartner.form_modeling.Header header)
+   {
+      this.header = header;
+   }
+
+   public MyModel(java.lang.String field1, java.lang.String field2,
+         keypartner.form_modeling.Header header)
    {
       this.field1 = field1;
       this.field2 = field2;
+      this.header = header;
    }
 
 }
