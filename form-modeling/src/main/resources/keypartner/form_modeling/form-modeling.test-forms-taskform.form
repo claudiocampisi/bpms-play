@@ -1,0 +1,14 @@
+
+<form id="1742316212">
+<property name="name" value="form-modeling.test-forms-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="simpleInput1" type="InputText" id="2024033844">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;simpleInput1 (simpleInput1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="simpleInput1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="simpleInput1" value="java.lang.String" id="simpleInput1"/>
+</form>
