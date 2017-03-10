@@ -30,7 +30,18 @@
 <property name="defaultSubform" value="HeaderForm.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
+<field position="3" name="197472606" type="Subform" id="197472606">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Subform3quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="pojo_in"/>
+<property name="outputBinding" value="pojo_out"/>
+<property name="defaultSubform" value="MyPojoForm.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
 <dataHolder inputId="model_in" name="#E9E371" type="dataModelerEntry" outId="model_out" value="keypartner.form_modeling.MyModel" id="model"/>
-<dataHolder supportedType="className" inputId="" name="#E9E371" type="dataModelerEntry" outId="complexInput1" value="keypartner.form_modeling.MyPojo" id="mypojo"/>
+<dataHolder supportedType="className" inputId="pojo_in" name="#E9E371" type="dataModelerEntry" outId="pojo_out" value="keypartner.form_modeling.MyPojo" id="pojo"/>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="simpleInput1" value="java.lang.String" id="simpleInput1"/>
 </form>
