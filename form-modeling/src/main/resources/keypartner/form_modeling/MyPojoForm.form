@@ -3,25 +3,26 @@
 <property name="name" value="MyPojoForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="mypojo1_field1" type="InputText" id="199424214">
+<field position="0" name="mypojo1_field1" type="InputText" id="1521118899">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;field1 (mypojo1)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;field1 (mypojo1)quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="complexInput1/field1"/>
 <property name="outputBinding" value="complexInput1/field1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="mypojo1_field2" type="InputText" id="2123128473">
+<field position="1" name="mypojo1_field2" type="InputText" id="1272702353">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;field2 (mypojo1)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="mypojo1_in/field2"/>
 <property name="outputBinding" value="complexInput1/field2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder supportedType="className" inputId="mypojo1_in" name="#E9E371" type="dataModelerEntry" outId="complexInput1" value="keypartner.form_modeling.MyPojo" id="mypojo1"/>
+<field position="2" name="mypojo1_field3" type="InputTextPrimitiveInteger" id="378730794">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;field3 (mypojo1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="complexInput1/field3"/>
+<property name="fieldClass" value="int"/>
+</field>
+<dataHolder supportedType="className" inputId="" name="#E9E371" type="dataModelerEntry" outId="complexInput1" value="keypartner.form_modeling.MyPojo" id="mypojo1"/>
 </form>
