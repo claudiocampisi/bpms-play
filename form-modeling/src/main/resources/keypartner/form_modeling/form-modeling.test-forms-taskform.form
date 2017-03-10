@@ -10,5 +10,30 @@
 <property name="outputBinding" value="simpleInput1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="1" name="mypojo_field1" type="InputText" id="784966173">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;field1 (mypojo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="mypojo_in/field1"/>
+<property name="outputBinding" value="mypojo_out/field1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="mypojo_field2" type="InputText" id="1482820388">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;field2 (mypojo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="mypojo_in/field2"/>
+<property name="outputBinding" value="mypojo_out/field2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="mypojo_field3" type="InputTextPrimitiveInteger" id="1576156599">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;field3 (mypojo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="mypojo_in/field3"/>
+<property name="outputBinding" value="mypojo_out/field3"/>
+<property name="fieldClass" value="int"/>
+</field>
+<dataHolder inputId="mypojo_in" name="#9BCAFA" type="dataModelerEntry" outId="mypojo_out" value="keypartner.form_modeling.MyPojo" id="mypojo"/>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="simpleInput1" value="java.lang.String" id="simpleInput1"/>
 </form>
