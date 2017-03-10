@@ -5,15 +5,23 @@
 <property name="status" value="0"/>
 <field position="0" name="simpleInput1" type="InputText" id="2024033844">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;simpleInput1 (simpleInput1)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;simpleInput1 (simpleInput1)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="outputBinding" value="simpleInput1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="mypojo_field1" type="InputText" id="784966173">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;field1 (mypojo)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;field1 (mypojo)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="mypojo_in/field1"/>
 <property name="outputBinding" value="mypojo_out/field1"/>
 <property name="fieldClass" value="java.lang.String"/>
@@ -34,6 +42,6 @@
 <property name="outputBinding" value="mypojo_out/field3"/>
 <property name="fieldClass" value="int"/>
 </field>
-<dataHolder inputId="mypojo_in" name="#9BCAFA" type="dataModelerEntry" outId="mypojo_out" value="keypartner.form_modeling.MyPojo" id="mypojo"/>
+<dataHolder supportedType="className" inputId="" name="#E9E371" type="dataModelerEntry" outId="complexInput1" value="keypartner.form_modeling.MyPojo" id="mypojo"/>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="simpleInput1" value="java.lang.String" id="simpleInput1"/>
 </form>
