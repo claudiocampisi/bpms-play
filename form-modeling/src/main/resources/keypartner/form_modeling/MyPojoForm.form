@@ -3,26 +3,29 @@
 <property name="name" value="MyPojoForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="mypojo1_field1" type="InputText" id="1521118899">
+<field position="0" name="pojo_field1" type="InputText" id="2123041643">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;field1 (mypojo1)quot;"/>
+<property name="label" value="quot;enquot;,quot;field1 (pojo)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="complexInput1/field1"/>
+<property name="inputBinding" value="pojo_in/field1"/>
+<property name="outputBinding" value="pojo_out/field1"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="mypojo1_field2" type="InputText" id="1272702353">
+<field position="1" name="pojo_field2" type="InputText" id="2099817789">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;field2 (mypojo1)quot;"/>
+<property name="label" value="quot;enquot;,quot;field2 (pojo)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="complexInput1/field2"/>
+<property name="inputBinding" value="pojo_in/field2"/>
+<property name="outputBinding" value="pojo_out/field2"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="mypojo1_field3" type="InputTextPrimitiveInteger" id="378730794">
+<field position="2" name="pojo_field3" type="InputTextPrimitiveInteger" id="356103664">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;field3 (mypojo1)quot;"/>
+<property name="label" value="quot;enquot;,quot;field3 (pojo)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="complexInput1/field3"/>
+<property name="inputBinding" value="pojo_in/field3"/>
+<property name="outputBinding" value="pojo_out/field3"/>
 <property name="fieldClass" value="int"/>
 </field>
-<dataHolder supportedType="className" inputId="" name="#E9E371" type="dataModelerEntry" outId="complexInput1" value="keypartner.form_modeling.MyPojo" id="mypojo1"/>
+<dataHolder supportedType="className" inputId="pojo_in" name="#E9E371" type="dataModelerEntry" outId="pojo_out" value="keypartner.form_modeling.MyPojo" id="pojo"/>
 </form>
