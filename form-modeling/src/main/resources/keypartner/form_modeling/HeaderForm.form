@@ -3,4 +3,21 @@
 <property name="name" value="HeaderForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="header_correlation" type="InputText" id="1356103617">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;correlation (header)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="header_in/correlation"/>
+<property name="outputBinding" value="header_out/correlation"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="header_key" type="InputText" id="798032824">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;key (header)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="header_in/key"/>
+<property name="outputBinding" value="header_out/key"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="header_in" name="#E9E371" type="dataModelerEntry" outId="header_out" value="keypartner.form_modeling.Header" id="header"/>
 </form>
