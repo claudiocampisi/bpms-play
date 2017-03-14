@@ -3,4 +3,29 @@
 <property name="name" value="ItemForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="item_desc" type="InputText" id="1306841894">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;desc (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="item_in/desc"/>
+<property name="outputBinding" value="item_out/desc"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="item_id" type="InputText" id="503833948">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="item_in/id"/>
+<property name="outputBinding" value="item_out/id"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="item_quantity" type="InputTextPrimitiveInteger" id="958739913">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;quantity (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="item_in/quantity"/>
+<property name="outputBinding" value="item_out/quantity"/>
+<property name="fieldClass" value="int"/>
+</field>
+<dataHolder inputId="item_in" name="#9BCAFA" type="dataModelerEntry" outId="item_out" value="keypartner.form_modeling.MyItem" id="item"/>
 </form>
