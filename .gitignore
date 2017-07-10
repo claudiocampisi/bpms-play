@@ -1,5 +1,5 @@
 ######################
-# General
+# General gitignore
 ######################
 # Secret Twitter OAuth
 runTwitter.sh
