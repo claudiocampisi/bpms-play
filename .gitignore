@@ -1,7 +1,6 @@
 ######################
 # General
 ######################
-
 # Secret Twitter OAuth
 runTwitter.sh
 
