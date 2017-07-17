@@ -11,6 +11,8 @@ public class NotificationDTO implements java.io.Serializable
 
    private java.lang.String message;
 
+   private it.keypartner.fma_play.DetailsDTO detail;
+
    public NotificationDTO()
    {
    }
@@ -25,9 +27,21 @@ public class NotificationDTO implements java.io.Serializable
       this.message = message;
    }
 
-   public NotificationDTO(java.lang.String message)
+   public it.keypartner.fma_play.DetailsDTO getDetail()
+   {
+      return this.detail;
+   }
+
+   public void setDetail(it.keypartner.fma_play.DetailsDTO detail)
+   {
+      this.detail = detail;
+   }
+
+   public NotificationDTO(java.lang.String message,
+         it.keypartner.fma_play.DetailsDTO detail)
    {
       this.message = message;
+      this.detail = detail;
    }
 
 }
