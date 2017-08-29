@@ -3,6 +3,22 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-eap-plugin-repository</id>
+        <url>file://H:/dev/maven-repo/jboss-eap-7.0.0.GA-maven-repository/maven-repository</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>guvnor-m2-repo</id>
         <url>http://localhost:8080/business-central/maven2/</url>
         <source>PROJECT</source>
@@ -11,8 +27,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-eap-repository</id>
-        <url>file://H:/dev/maven-repo/jboss-eap-7.0.0.GA-maven-repository/maven-repository</url>
+        <id>enel-workbeat-repository</id>
+        <url>file://H:/dev/maven-repo/enel-workbeat-maven-repository/maven-repository</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-brms-bpmsuite-plugin-repository</id>
+        <url>file://H:/dev/maven-repo/jboss-brms-bpmsuite-6.4.0.GA-maven-repository/maven-repository</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -27,9 +51,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-brms-bpmsuite-plugin-repository</id>
-        <url>file://H:/dev/maven-repo/jboss-brms-bpmsuite-6.4.0.GA-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
+        <id>local</id>
+        <url>H:/tmp/local-m2</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
@@ -43,31 +67,7 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>enel-workbeat-repository</id>
-        <url>file://H:/dev/maven-repo/enel-workbeat-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>local</id>
-        <url>H:/tmp/local-m2</url>
-        <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-eap-plugin-repository</id>
+        <id>jboss-eap-repository</id>
         <url>file://H:/dev/maven-repo/jboss-eap-7.0.0.GA-maven-repository/maven-repository</url>
         <source>SETTINGS</source>
       </metadata>
