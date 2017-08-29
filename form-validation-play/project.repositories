@@ -19,6 +19,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>jboss-ga-repository</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>jboss-brms-bpmsuite-plugin-repository</id>
         <url>file://H:/dev/maven-repo/jboss-brms-bpmsuite-6.4.0.GA-maven-repository/maven-repository</url>
         <source>SETTINGS</source>
