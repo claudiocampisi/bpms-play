@@ -50,11 +50,7 @@
 			<artifactId>common-dto</artifactId>
 			<version>${workbeat.common.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.enel.workbeat</groupId>
-			<artifactId>common-wih</artifactId>
-			<version>${workbeat.common.version}</version>
-		</dependency>
+		
 		
   </dependencies>
   <build>
