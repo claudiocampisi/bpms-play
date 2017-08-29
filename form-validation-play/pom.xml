@@ -23,7 +23,11 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
-
+ <dependency>
+      <groupId>com.enel.workbeat</groupId>
+      <artifactId>fat-dto</artifactId>
+      <version>1.3.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <repositories>
     <repository>
