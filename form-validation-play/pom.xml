@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>it.keypartner</groupId>
   <artifactId>form-validation-play</artifactId>
-  <version>1.3</version>
+  <version>1.4</version>
   <packaging>kjar</packaging>
   <name>form-validation-play</name>
   <properties>
@@ -33,7 +33,6 @@
       <artifactId>fat-dto</artifactId>
       <version>1.3.0-SNAPSHOT</version>
     </dependency>
-   
     <dependency>
       <groupId>com.enel.workbeat</groupId>
       <artifactId>common-dto</artifactId>
