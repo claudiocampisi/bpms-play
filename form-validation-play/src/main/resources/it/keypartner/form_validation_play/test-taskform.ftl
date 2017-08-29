@@ -225,11 +225,6 @@
 
 		<fieldset>
             <legend>Task Inputs</legend>
-                            		<label for="name">dto</label>
-                            		<div class="div_checkbox">
-                              		${dto}
-                            		</div>
-
             <div class="clear"></div>
           </fieldset>
 

@@ -200,36 +200,12 @@
 </style>
 <div id="container">
 	<div id="header">
-		User Task Form: form-validation-play.test2
+		New Process Instance: /form-validation-play/src/main/resources/it/keypartner/form_validation_play.form-validation-play
 	</div>
 	<div id="content">
-	    <input type="hidden" name="taskId" value="${task.id}"/>
+	    <input type="hidden" name="processId" value="${process.id}"/>
 		<fieldset>
-            <legend>Task Info</legend>
-            	<label for="name">Owners</label>
-            	<div class="div_checkbox">
-            	
-            	</div>
-            	<label for="name">Actor ID</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Group</label>
-            	<div class="div_checkbox"><![CDATA[admin]]></div>
-            	<label for="name">Skippable</label>
-            	<div class="div_checkbox">true</div>
-            	<label for="name">Priority</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Comment</label>
-            	<div class="div_checkbox"></div>
-            <div class="clear"></div>
-          </fieldset>
-
-		<fieldset>
-            <legend>Task Inputs</legend>
-            <div class="clear"></div>
-          </fieldset>
-
-          <fieldset>
-            <legend>Task Outputs</legend>
+            <legend>Process inputs</legend>
           </fieldset>
 	</div>
 	<div id="footer">
