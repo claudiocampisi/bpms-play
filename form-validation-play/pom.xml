@@ -23,11 +23,7 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
-    <dependency>
-      <groupId>org.jbpm</groupId>
-      <artifactId>jbpm-workitems</artifactId>
-      <scope>provided</scope>
-    </dependency>
+   
     <dependency>
       <groupId>com.enel.workbeat</groupId>
       <artifactId>fat-dto</artifactId>
